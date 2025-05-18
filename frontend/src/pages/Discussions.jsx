@@ -51,8 +51,8 @@ const Discussions = () => {
   const fetchDiscussions = async () => {
     try {
       const url = category
-        ? `http://localhost:5000/api/discussions/category/${category}`
-        : 'http://localhost:5000/api/discussions';
+        ? `https://skillkart-backend-i4j5.onrender.com/api/discussions/category/${category}`
+        : 'https://skillkart-backend-i4j5.onrender.com/api/discussions';
       const response = await axiosInstance.get(endpoints.discussions);
       setDiscussions(response.data);
     } catch (error) {
