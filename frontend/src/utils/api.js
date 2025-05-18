@@ -1,6 +1,6 @@
 // Centralized API configuration
 
-export const baseURL = 'http://localhost:5000/api';
+export const baseURL = 'https://skillkart-backend-i4j5.onrender.com/api';
 
 export const endpoints = {
   // Auth
